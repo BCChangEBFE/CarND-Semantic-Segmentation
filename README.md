@@ -23,7 +23,7 @@ I was able to obtain a training loss of 0.0155018 with the following hyper param
 * batch_size = 5
 * dropout_rate = 0.5
 
-From the chart below we can see the loss decreasing at we train the network,
+From the chart below we can see the cross entropy loss decreasing as we train the network,
 ![alt text](readme_img/lossVSepoc.png)
 
 Below are some of the result of running the FNN model on test images
