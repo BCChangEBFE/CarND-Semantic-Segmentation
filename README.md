@@ -17,17 +17,20 @@ In particular the functions that were implemented for the project were,
 To be abe to train the network in reasonable amount of time. I have decided to set up a google cloud GPU instance to run the project. 
 After playing with some hyper parameters, I have come to conclusion that training rate lower than 0.00001 are likely too low, and take a long time to converge while 0.0001 are large enough that it does not necessary alwayse converge to a number lower than 0.03. In general a trainig rate between 0.00001 and 0.00005 seems to prodce reasonable result with epoc between 100 and 150 with batch_size between 5 to 10. A training epoc much higher than 150 at such training rate might cause over fitting. I have not played with the dropout_rateand have just kept it at 0.5.
 
-I was able to obtain a training loss of 0.0166431 with the following hyper parameters
+I was able to obtain a training loss of 0.0155018 with the following hyper parameters
 * training_rate = 0.00005
-* epoc = 150
+* epoc = 120
 * batch_size = 5
 * dropout_rate = 0.5
 
+From the chart below we can see the loss decreasing at we train the network,
+![alt text](readme_img/lossVSepoc.png)
+
 Below are some of the result of running the FNN model on test images
-![alt text](example_output/um_000000.png)
-![alt text](example_output/um_000095.png)
-![alt text](example_output/umm_000050.png)
-![alt text](example_output/uu_000000.png)
+![alt text](readme_img/um_000000.png)
+![alt text](readme_img/um_000095.png)
+![alt text](readme_img/umm_000050.png)
+![alt text](readme_img/uu_000000.png)
 ![alt text](example_output/uu_000099.png)
 ![alt text](example_output/um_000050.png)
 ![alt text](example_output/umm_000000.png)
