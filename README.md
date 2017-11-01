@@ -28,14 +28,14 @@ From the chart below we can see the cross entropy loss decreasing as we train th
 
 Below are some of the result of running the FNN model on test images
 ![alt text](readme_img/um_000000.png)
+![alt text](readme_img/um_000050.png)
 ![alt text](readme_img/um_000095.png)
+![alt text](readme_img/umm_000000.png)
 ![alt text](readme_img/umm_000050.png)
+![alt text](readme_img/umm_000093.png)
 ![alt text](readme_img/uu_000000.png)
-![alt text](example_output/uu_000099.png)
-![alt text](example_output/um_000050.png)
-![alt text](example_output/umm_000000.png)
-![alt text](example_output/umm_000093.png)
-![alt text](example_output/uu_000050.png)
+![alt text](readme_img/uu_000050.png)
+![alt text](readme_img/uu_000099.png)
 
 The Complete result is located at 
 run/1509483507.3295708/
